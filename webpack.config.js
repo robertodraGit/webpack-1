@@ -9,7 +9,7 @@ module.exports = {
         profile: './src/profile.js',
     },
     plugins: [
-        new CleanWebpackPlugin({}),
+        new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({}),
     ],
     output: {
